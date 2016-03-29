@@ -28,4 +28,4 @@ void max(T *arr, int size) {
 	cout << result << endl;
 }
 
-#endif
+#endif   

@@ -66,4 +66,4 @@ void max(string *arrStr, int size) {
 	cout << maxStr << endl;
 }
 
-#endif
+#endif   
