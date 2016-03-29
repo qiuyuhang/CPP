@@ -2,13 +2,11 @@
 #include<string>
 using namespace std;
 
-void display(string *str)
-{
+void display(string *str){
 	cout << *str << "(From String*)" << endl;
 }
 
-void display(string &str)
-{
+void display(string &str){
 	cout << str << "(From String&)" << endl;
 }
 
