@@ -11,9 +11,10 @@ int main(int argc, char *argv[])//可以通过传参打开文件，若无参数，默认打开in.txt
 	string word;
 	int times = 0;
 
-	while (inFile >> word) {
+	while (inFile >> word) 
 		if (word == "that") ++times;
-	}
+	inFile.close();
+	
 	cout << times << endl;
 
 	return 0;
