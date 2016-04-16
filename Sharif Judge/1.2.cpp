@@ -9,6 +9,8 @@ int main()
 	int x = 1, y = n*(k - 1) + 1;
 	while (y < n*n) {
 		for (int a = 0; a<k - 1; a++) 
+	while (y <= n*n) {
+		for (int a = 0; a<k - 1; a++) 
 			cout << x++ << " ";
 		for (int b = 0; b<=n - k; b++) 
 			cout << y++ << " ";
